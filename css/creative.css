@@ -248,9 +248,17 @@ header.masthead {
       font-size: 22px; } }
 
 .call-to-action {
-  padding: 50px 0; }
+  padding: 90px 0;
+  background-image: url("/img/pleiades_bgi.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px black;
+  color: lightgrey; }
   .call-to-action h2 {
     margin: 0 auto 20px; }
+  .call-to-action .btn.btn-default.btn-xl.sr-button {
+    text-shadow: 0px 0px black; }
 
 .text-primary {
   color: #F05F40 !important; }
