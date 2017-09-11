@@ -4,7 +4,7 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: white;
+  color: #42BBFA;
   background-image: url('../img/header.jpg');
   background-position: center;
   @include background-cover;
@@ -14,6 +14,7 @@ header.masthead {
     padding: 150px 15px 100px;
     text-align: center;
     .header-content-inner {
+
       h1 {
         font-size: 30px;
         font-weight: 700;
@@ -25,10 +26,11 @@ header.masthead {
         margin: 30px auto;
       }
       p {
-        font-size: 16px;
+        font-family: 'Droid Serif', Helvetica;
+        font-size: 48px;
         font-weight: 300;
-        margin-bottom: 50px;
-        color: fade-out(white, .3);
+        margin-bottom: 30px;
+        color: white;
       }
     }
   }
@@ -37,7 +39,7 @@ header.masthead {
     min-height: 600px;
     .header-content {
       position: absolute;
-      top: 50%;
+      top: 35%;
       padding: 0 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -50,7 +52,8 @@ header.masthead {
           font-size: 50px;
         }
         p {
-          font-size: 18px;
+          font-family: 'Open Sans', Helvetica;
+          font-size: 20px;
           max-width: 80%;
           margin-right: auto;
           margin-left: auto;
