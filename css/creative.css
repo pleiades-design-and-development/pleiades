@@ -310,7 +310,7 @@ header.masthead {
 .call-to-action {
   height: 300px;
   padding: 90px 0;
-  background-image: url("./img/pleiades_bgi_2.jpg");
+  background-image: url("img/pleiades_bgi_2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
