@@ -29,6 +29,7 @@ header.masthead {
         font-family: 'Droid Serif', Helvetica;
         font-size: 48px;
         font-weight: 300;
+        margin-top: 200px;
         margin-bottom: 30px;
         color: white;
       }
@@ -39,7 +40,7 @@ header.masthead {
     min-height: 600px;
     .header-content {
       position: absolute;
-      top: 35%;
+      top: 45%;
       padding: 0 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
