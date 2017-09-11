@@ -122,6 +122,17 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #222222; }
 
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-react-original-wordmark, .devicon-rails-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-amazonwebservices-plain-wordmark, .devicon-heroku-original-wordmark {
+  font-size: 3.5em;
+  color: white;
+  padding: 0 20px; }
+
+.stack {
+  background-color: #36454f;
+  padding: 30px 0; }
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -130,7 +141,8 @@ body {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #593568;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
@@ -144,7 +156,7 @@ body {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     color: #222222; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
@@ -296,13 +308,14 @@ header.masthead {
       font-size: 22px; } }
 
 .call-to-action {
+  height: 300px;
   padding: 90px 0;
-  background-image: url("/img/pleiades_bgi.jpg");
-  background-position: left center;
+  background-image: url("/img/pleiades_bgi_2.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-shadow: 2px 2px black;
-  color: lightgrey; }
+  color: white; }
   .call-to-action h2 {
     margin: 0 auto 20px; }
   .call-to-action .btn.btn-default.btn-xl.sr-button {
