@@ -2,9 +2,11 @@
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
-  // margin: 0 auto;
-  margin: 20px auto;
+  max-width: 100%;
+  max-height: 50vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
   .portfolio-box-caption {
     position: absolute;
     bottom: 0;
