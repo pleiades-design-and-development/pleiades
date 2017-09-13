@@ -21,6 +21,7 @@ hr.light {
 
 a {
   color: $theme-primary;
+
   @include transition-all;
   &:focus,
   &:hover {
@@ -28,6 +29,8 @@ a {
     text-decoration: none;
   }
 }
+
+a:focus {outline:0;}
 
 h1,
 h2,
@@ -131,7 +134,7 @@ body {
 
 .devicon-html5-plain-wordmark,
 .devicon-css3-plain-wordmark,
-.devicon-react-original-wordmark, .devicon-rails-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-amazonwebservices-plain-wordmark, .devicon-heroku-original-wordmark {
+.devicon-react-original-wordmark, .devicon-rails-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-amazonwebservices-plain-wordmark, .devicon-heroku-original-wordmark, .ionicon {
   font-size: 3.5em;
   color: white;
   padding: 0 20px;

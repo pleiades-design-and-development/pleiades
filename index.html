@@ -15,6 +15,8 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -144,7 +146,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Our Projects</h2>
+            <h2 class="section-heading">Projects</h2>
             <hr class="primary">
           </div>
         </div>
@@ -152,32 +154,40 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
+            <a data-toggle="modal" href="#portfolioModal1">
             <div class="service-box">
-              <i class="fa fa-4x fa-star text-primary sr-icons"></i>
+              <i class="ion-planet ionicon text-primary sr-icons"></i>
               <h3>Starchitect</h3>
-              <p class="text-muted">Half education platform and half game, Starchitect encourages students to engage in their own learning and level up!</p>
+              <p class="text-muted">Research and creativity in the classroom</p>
             </div>
+            </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
+            <a data-toggle="modal" href="#portfolioModal2">
             <div class="service-box">
-              <i class="fa fa-4x fa-beer text-primary sr-icons"></i>
-              <h3>MBS</h3>
-              <p class="text-muted">Brewery inventory management app, tracking kegs outside the brewery!</p>
+              <i class="ion-ios-pint ionicon text-primary sr-icons"></i>
+              <h3>Midwest Brewery Solutions</h3>
+              <p class="text-muted">Track distributed beer inventory in real time</p>
             </div>
+          </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
+            <a data-toggle="modal" href="#portfolioModal3">
             <div class="service-box">
-              <i class="fa fa-4x fa-music text-primary sr-icons"></i>
+              <i class="ion-ios-musical-notes ionicon text-primary sr-icons"></i>
               <h3>Tommy</h3>
-              <p class="text-muted">Beautifully designed musician website with a custom-built store!</p>
+              <p class="text-muted">Local Indianapolis artist and musician, Tommy Hadjuk</p>
             </div>
+          </a>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
+            <a data-toggle="modal" href="#portfolioModal4">
             <div class="service-box">
-              <i class="fa fa-4x fa-music text-primary sr-icons"></i>
+              <i class="ion-ios-musical-notes ionicon text-primary sr-icons"></i>
               <h3>Jam On</h3>
-              <p class="text-muted">Connect musicians with a simple interface to encourage meeting, creating, and performing music locally!</p>
+              <p class="text-muted">Get your jam on with fellow musicians looking to play</p>
             </div>
+          </a>
           </div>
         </div>
       </div>
@@ -204,9 +214,6 @@
               <img class="img-fluid" id='starchitect-img' src="./img/portfolio/fullsize/starchitect/homepage.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Research and creativity in the classroom
-                  </div>
                   <div class="project-name">
                     Starchitect
                   </div>
@@ -222,9 +229,6 @@
               <img class="img-fluid" src="./img/portfolio/fullsize/mbs/beer-on-keg.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Track distributed beer inventory in real time
-                  </div>
                   <div class="project-name">
                     Midwest Brewery Solutions
                   </div>
@@ -242,9 +246,6 @@
               <img class="img-fluid" src="./img/portfolio/fullsize/tommy/tommy_sketch.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Local Indianapolis artist and musician, Tommy
-                  </div>
                   <div class="project-name">
                     Tommy
                   </div>
@@ -262,9 +263,6 @@
               <img class="img-fluid" id='jam-on-img' src="./img/portfolio/fullsize/jamOn/guitar-in-space2.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Get your jam on with fellow musicians looking to play
-                  </div>
                   <div class="project-name">
                     Jam On
                   </div>
@@ -296,6 +294,137 @@
         </div>
       </div>
     </section>
+
+    <!-- Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Starchitect</h2>
+              <p class="item-intro text-muted">Starchitect</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/pleiadesclear.png" alt="">
+              <p>Starchitect was built to put education and creativity in the hands of the students, not a textbook.  Students build a classroom-sourced data store for objects in our solar system and can switch to a free-form, creative mode to build something new.</p>
+              <ul class="list-inline">
+                <li>Date: August 2017</li>
+                <li>Client: The Iron Yard, Final Project</li>
+                <li>Category: Educational Application</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="close-modal" data-dismiss="modal">
+    <div class="lr">
+      <div class="rl"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="modal-body">
+          <!-- Project Details Go Here -->
+          <h2>Midwest Brewery Solutions</h2>
+          <p class="item-intro text-muted">MW Brewery</p>
+          <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/pleiadesclear.png" alt="">
+          <p>The ability to track your distributed inventory of beer in real time can mean the difference between waste and profit.  Give your customers a live line to the numbers and keep beer flowing for everyone.</p>
+          <ul class="list-inline">
+            <li>Date: TBD</li>
+            <li>Client: Midwest Brewery Solutions</li>
+            <li>Category: Inventory Application</li>
+          </ul>
+          <button class="btn btn-primary" data-dismiss="modal" type="button">
+            <i class="fa fa-times"></i>
+            Close Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="close-modal" data-dismiss="modal">
+    <div class="lr">
+      <div class="rl"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="modal-body">
+          <!-- Project Details Go Here -->
+          <h2>Tommy</h2>
+          <p class="item-intro text-muted">Artist and Musician Tommy</p>
+          <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/pleiadesclear.png" alt="">
+          <p>Tommy Norris is an Indianapolis music, art, and fashion icon.  Pleiades has teamed up with Tommy to bring his brand and his presence to a greater audience by giving him a home online.</p>
+          <ul class="list-inline">
+            <li>Date: TBD</li>
+            <li>Client: Tommy Norris</li>
+            <li>Category: Web Presence</li>
+          </ul>
+          <button class="btn btn-primary" data-dismiss="modal" type="button">
+            <i class="fa fa-times"></i>
+            Close Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="close-modal" data-dismiss="modal">
+    <div class="lr">
+      <div class="rl"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="modal-body">
+          <!-- Project Details Go Here -->
+          <h2>Jam On</h2>
+          <p class="item-intro text-muted">Get your jam on</p>
+          <img class="img-fluid d-block mx-auto" src="img/portfolio/fullsize/pleiadesclear.png" alt="">
+          <p>Are you a musician who's new in town, skilling up, or just want to play with new people?  Jam On puts you in touch with other musicians who are looking for an impromptu gig.</p>
+          <ul class="list-inline">
+            <li>Date: TBD</li>
+            <li>Client: Brandon Dilts</li>
+            <li>Category: Music Collab Application</li>
+          </ul>
+          <button class="btn btn-primary" data-dismiss="modal" type="button">
+            <i class="fa fa-times"></i>
+            Close Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
